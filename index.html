@@ -263,11 +263,18 @@
                     </div>
                     
                     <form class="contact-form" action="https://formsubmit.co/aleejandro.santos@gmail.com" method="POST">
-                        <!-- FormSubmit Configuration -->
+                        <!-- Configuración de FormSubmit para recibir emails -->
+                        <!-- Asunto personalizado del email que me llega -->
                         <input type="hidden" name="_subject" value="Nuevo mensaje desde Portfolio - Alejandro Santos">
+                        <!-- Desactivo captcha para mejor UX -->
                         <input type="hidden" name="_captcha" value="false">
+                        <!-- Formato tabla para emails más legibles -->
                         <input type="hidden" name="_template" value="table">
+                        <!-- Redirección a mi página de agradecimiento después de enviar -->
                         <input type="hidden" name="_next" value="https://asantosss.github.io/Portfolio/thank-you.html">
+                        <!-- CC: puedo agregar emails adicionales separados por coma -->
+                        <input type="hidden" name="_cc" value="">
+                        <!-- Campo honeypot oculto para filtrar spam bots -->
                         <input type="text" name="_honey" style="display:none">
                         
                         <div class="form-group">

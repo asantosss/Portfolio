@@ -114,10 +114,6 @@ body {
     transform: translateX(100%);
 }
 
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    padding: 3rem;
-    border-radius: 4px;
 .door-content {
     position: relative;
     width: 100%;
@@ -152,6 +148,10 @@ body {
     text-align: center;
     z-index: 10;
     transition: opacity 0.6s ease;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 3rem;
+    border-radius: 4px;
 }
 
 .entrance-wrapper.opening .entrance-content {
