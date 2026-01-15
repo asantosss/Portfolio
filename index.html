@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Santos - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Pinyon+Script&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Entrada con Puertas -->
+    <div class="entrance-wrapper" id="entranceWrapper">
+        <div class="entrance-door door-left">
+            <div class="door-content">
+                <div class="coffee-stain"></div>
+            </div>
+        </div>
+        <div class="entrance-door door-right">
+            <div class="door-content">
+                <div class="coffee-stain-right"></div>
+            </div>
+        </div>
+        
+        <div class="entrance-content">
+            <div class="signature-name">Alejandro Santos</div>
+            <div class="entrance-subtitle">Creative Developer & Designer</div>
+            <button class="entrance-button" id="enterButton">
+                <span class="button-text">come with me</span>
+                <div class="button-glow"></div>
+            </button>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="main-content" id="mainContent">
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">AS</a>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <h1 class="hero-title">Crafting Digital Experiences</h1>
+                <p class="hero-subtitle">Where creativity meets functionality</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="about-img-placeholder">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="50" cy="35" r="15" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <path d="M20 80 Q20 55 50 55 Q80 55 80 80" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="frame-corner tl"></div>
+                            <div class="frame-corner tr"></div>
+                            <div class="frame-corner bl"></div>
+                            <div class="frame-corner br"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        
+                        <p class="about-paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        <div class="skills-list">
+                            <span class="skill-tag">Design</span>
+                            <span class="skill-tag">Development</span>
+                            <span class="skill-tag">Creative Direction</span>
+                            <span class="skill-tag">User Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">Selected Works</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-img-placeholder">
+                                <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="50" y="50" width="300" height="200" rx="4" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <circle cx="200" cy="120" r="30" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <path d="M80 220 L160 160 L240 180 L320 140" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Elegant Portfolio</h3>
+                            <p class="project-description">A minimalist approach to showcasing creative work with smooth animations</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Design</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-img-placeholder">
+                                <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="100" y="80" width="200" height="140" rx="4" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <line x1="100" y1="110" x2="300" y2="110" stroke="#8B7355" stroke-width="2"/>
+                                    <circle cx="150" cy="150" r="20" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <rect x="190" y="135" width="80" height="8" rx="2" stroke="#8B7355" stroke-width="1" fill="none"/>
+                                    <rect x="190" y="155" width="60" height="8" rx="2" stroke="#8B7355" stroke-width="1" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Coffee Shop App</h3>
+                            <p class="project-description">Mobile-first experience for discovering artisan coffee in London</p>
+                            <div class="project-tags">
+                                <span class="tag">Mobile</span>
+                                <span class="tag">UX</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-img-placeholder">
+                                <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M80 150 Q200 50 320 150 T560 150" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <circle cx="140" cy="110" r="8" fill="#8B7355"/>
+                                    <circle cx="200" cy="80" r="8" fill="#8B7355"/>
+                                    <circle cx="260" cy="110" r="8" fill="#8B7355"/>
+                                    <line x1="50" y1="250" x2="350" y2="250" stroke="#8B7355" stroke-width="1" stroke-dasharray="4 4"/>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-description">Data visualization with elegant charts and real-time updates</p>
+                            <div class="project-tags">
+                                <span class="tag">Data Viz</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-img-placeholder">
+                                <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="60" y="60" width="120" height="180" rx="8" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <rect x="220" y="60" width="120" height="180" rx="8" stroke="#8B7355" stroke-width="2" fill="none"/>
+                                    <line x1="80" y1="100" x2="160" y2="100" stroke="#8B7355" stroke-width="2"/>
+                                    <line x1="240" y1="100" x2="320" y2="100" stroke="#8B7355" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Brand Identity System</h3>
+                            <p class="project-description">Comprehensive design system for modern digital products</p>
+                            <div class="project-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">System</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 class="contact-heading">Let's Create Something Beautiful Together</h3>
+                        <p class="contact-text">Whether you have a project in mind or just want to chat about design and development, I'd love to hear from you.</p>
+                        
+                        <div class="contact-methods">
+                            <a href="mailto:hello@alejandrosantos.com" class="contact-method">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>hello@alejandrosantos.com</span>
+                            </a>
+                            
+                            <a href="https://github.com/alejandrosantos" class="contact-method" target="_blank">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </div>
+                                <span>GitHub Profile</span>
+                            </a>
+                            
+                            <a href="https://linkedin.com/in/alejandrosantos" class="contact-method" target="_blank">
+                                <div class="method-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" action="https://formsubmit.co/aleejandro.santos@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde Portfolio - Alejandro Santos">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://asantosssy.github.io/portfolio/thank-you.html">
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p class="footer-text">© 2026 Alejandro Santos. Crafted with passion in London.</p>
+                    <div class="footer-signature">AS</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
